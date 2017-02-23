@@ -52,6 +52,7 @@ hr{
 }
 .section{
 	text-align:center;
+	margin: 20px 0;
 }
 
 .section-heading h2{
@@ -77,5 +78,20 @@ hr{
 	width:420px;
 }
 
+.what-we-do-container img{
+	width:100px;
+}
 
+.what-we-do-subheading{
+	font-size: 35px;
+	padding: 20px 0;
+	text-align:center;
+}
+
+.what-we-do-container p{
+	font-size:18px;
+	margin: 0;
+	font-family:'Open Sans' sans-serif;
+	color:#757575;
+}
 
