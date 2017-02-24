@@ -13,6 +13,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
 	integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.css" rel="stylesheet">
 
 	<link href="index.css" rel="stylesheet">
@@ -26,12 +28,12 @@
 		<div class="row header">
 			<div class="col-md-2">CREATIVE TIM</div>
 			<div class="col-md-10">
-				<div class="col-md-1">About</div>
-				<div class="col-md-2">What we do</div>
-				<div class="col-md-3">Our Famous Freebies</div>
-				<div class="col-md-3">Our Premium UI tools</div>
-				<div class="col-md-1">Team</div>
-				<div class="col-md-2">Numbers Don't Lie</div>
+				<div class="col-md-1"><a href="#about">About</a></div>
+				<div class="col-md-2"><a href="#whatwedo">What we do</a></div>
+				<div class="col-md-3"><a href="#freebies">Our Famous Freebies</a></div>
+				<div class="col-md-3"><a href="#people">What People Think</a></div>
+				<div class="col-md-1"><a href="#team">Team</a></div>
+				<div class="col-md-2"><a href="#numbers">Numbers Don't Lie</a></div>
 			</div>
 		</div>
 		<div class="row intro">
@@ -49,7 +51,7 @@
 	<div class="container">
 	
 		<!--about tim section starts-->
-		<div class="row section">
+		<div class="row section" id="about">
 			<div class="row">
 				<div class="row section-heading">
 					<h2>ABOUT CREATIVE TIM</h2>
@@ -101,7 +103,7 @@
 		<!--about tim section ends-->
 		
 		<!--what we do starts-->
-		<div class="row what-we-do-container section">
+		<div class="row what-we-do-container section" id="whatwedo">
 			<div class="row">
 				<div class="row section-heading">
 					<h2>WHAT WE DO</h2>
@@ -159,7 +161,7 @@
 		<!--what we do ends-->
 		
 		<!--our famous freebies start-->
-		<div class="row section">
+		<div class="row section" id="freebies">
 			<div class="row">
 				<div class="row section-heading">
 					<h2>OUR FAMOUS FREEBIES</h2>
@@ -282,7 +284,7 @@
 			<!--our famous freebies ends-->
 			
 			<!--what people think section-->
-			<div class="row section">
+			<div class="row section" id="people">
 				<div class="row">
 					<div class="row section-heading">
 						<h2>WHAT PEOPLE THINK</h2>
@@ -290,24 +292,44 @@
 					<div class="row">
 						<div class="col-md-2 col-md-offset-5"><hr></div>
 					</div>
-					<div class="col-md-8 col-md-offset-2">
+					
+					<div class="row para" id="ed">
 						<p>
 							
 								"Hey Creative-Tim team.
 								Absolutely love your work! It's a God-send for a developer like me who doesn't know his ass from great design! Keep up the awesome work! Ed"
 						</p>
 					</div>
+					<div class="row para" id="ab">
+						<p>
+							Hello there, My Name is Abhi Khatri. You're simply awesome. I would love to contact you.
+							I'm a new front-end developer but everytime I checkout your stuff it gives me idea to make my own stuff. Keep it up :)
+						</p>
+					</div>
+					<div class="row para" id="fa">
+						<p>
+							Finding a website with a vast purpose is always inspiring to continue front web development. But you did Magic my friends.
+							Keep going and be sure if there is a donation, I'm in. 
+							Thanks for your daily hardworking. hope to meet u guys one day.
+						</p>
+					</div>
+					<div class="row para" id="ko">
+						<p>
+							Hi, your site and all the stuff on it looks simply awesome, thank's for sharing. Love this. Greetings from Germany!
+						</p>
+					</div>
+				
 					<div class="row names">
-						<div class="col-md-3">
+						<div class="col-md-3" id="edwin">
 							EDWIN REDE
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3" id="abhi">
 							ABHI KHATRI
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3" id="fars">
 							FARS KID
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3" id="kolo">
 							KOLODZIEJ NIKOLAI
 						</div>
 					</div>
@@ -315,7 +337,7 @@
 			<!--what people think ends-->
 			
 			<!--meet our people-->
-			<div class="row section team-section">
+			<div class="row section team-section" id="team">
 				<div class="row">
 					<div class="row section-heading">
 						<h2>MEET OUR TEAM</h2>
@@ -333,8 +355,10 @@
 								<h3>ELENA CONACEL</h3>
 							</div>
 							<div class="row">
+							<p>
 								Elena is one of the co-founders and takes care of growth, product development and partnerships. 
 								She is analytical, driven and adapts easily to new conditions, while trying to keep everyone on track.
+							</p>
 							</div>
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -358,8 +382,10 @@
 								<h3>DIANA CALIMAN</h3>
 							</div>
 							<div class="row">
+							<p>
 								Diana is the person behind our social media channels, she takes care of our users' community and communication. 
 								She is ambitious, hard-working, instantly likeable and fun to be around.
+							</p>
 							</div>
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -388,8 +414,10 @@
 								<h3>ALEX PADERARU</h3>
 							</div>
 							<div class="row">
+							<p>
 								Alex is one of the co-founders and drives the technical strategy of the platform, customer support and brand. 
 								He is level-headed, smart and with a taste for simple, aesthetic design.
+							</p>
 							</div>
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -418,8 +446,10 @@
 								<h3>BENIAMIN MARCU</h3>
 							</div>
 							<div class="row">
+								<p>
 								Beni is the guy responsible for keeping the platform in check, improving its functionality and adding new features.
 								He is driven, always open for learning more, friendly and a fan of Ruby on Rails.
+								</p>
 							</div>
 							<div class="row">
 								<div class="col-md-8 col-md-offset-2">
@@ -445,5 +475,23 @@
 			<!--meet our people ends-->
 	</div>
 	
+	<script>
+		$("#abhi").click(function() {
+			$(".para").hide();
+			$("#ab").show();
+		});
+		$("#fars").click(function() {
+			$(".para").hide();
+			$("#fa").show();
+		});
+		$("#kolo").click(function() {
+			$(".para").hide();
+			$("#ko").show();
+		});
+		$("#edwin").click(function() {
+			$(".para").hide();
+			$("#ed").show();
+		});
+	</script>
 </body>
 </html>

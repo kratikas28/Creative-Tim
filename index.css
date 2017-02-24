@@ -92,6 +92,7 @@ hr{
 	color:#757575;
 }
 
+
 .caption{
 	font-size: 18px;
     color: #757575;
@@ -121,6 +122,9 @@ hr{
 	font-family:helvetica;
 }
 	
+#ab, #fa , #ko{
+	display: none;
+}
 .names{
 	text-align:center;
 	font-size:18px;
@@ -147,6 +151,10 @@ hr{
 	margin:50px 0;
 }
 
+.team p{
+	font-size: 18px;
+	color: #757575;
+}
 .social{
 	margin:20px;
 	cursor: pointer;
