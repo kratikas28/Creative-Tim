@@ -4,7 +4,7 @@
 .header{
 	font-size: 16px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 	position:fixed;
 	z-index:1;
@@ -12,14 +12,29 @@
 	margin-bottom:0;
 	background:white;
 	z-index:1;
+	color: #5D4037;
 	}
 	
-hr{
+.header a{
+	color: #795548;
+	text-decoration:none;
+}
+.header hr{
 	margin-bottom:0;
 }
 
+.tim{
+	font-family: 'Julius Sans One', sans-serif;
+	font-size:25px;
+}
+
+.navs{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+
 .intro{
-	height: 600px;
+	height: 800px;
 	background-image: url("https://ununsplash.imgix.net/photo-1427434846691-47fc561d1179?fit=crop&fm=jpg&h=700&q=75&w=1050");
 	background-attachment: fixed;
 	background-position:center;
@@ -27,47 +42,57 @@ hr{
 	background-size:cover;
 	text-align:center;
 	position:relative;
-	margin-top:85px;
 	}
 .intro-sub{
 	position:absolute;
-	top: 18%;
-	left:25%;
+	top: 30%;
+	left:15%;
 }
 .title{
-	font-size:80px;
+	font-size:90px;
 	color:white;
+	font-family: 'Muli', sans-serif;
+	text-align: center;
 	}
+	
 .breakline{
 	border-bottom:2px solid #9E9E9E;
 	}
 .description{
-	font-size:20px;
+	font-size:25px;
 	color: white;
 	padding: 20px;
-	font-weight: bold;
+	font-family: 'Muli', sans-serif;
+	text-align:center;
 }
 .section{
 	text-align:center;
-	margin: 100px 0;
+	margin: 50px 0;
 }
 
 .section-heading h2{
 	font-size: 40px;
 	font-weight:bold;
-	font-family:'Roboto' sans-serif;
+	font-family: 'Acme', sans-serif;
+}
+
+.underline-style{
+  border-width: 0 0 5px;
+  border-style: solid;
+border-image: url(http://www.w3.org/TR/css3-background/border.png) 27 fill stretch;
 }
 .section hr{
-	color: brown;
+	color: #9E9E9E;
 	border: 1px solid;
 }
 
 .section p{
 	padding:10px;
 	margin:20px;
-	font-family:'Open Sans' sans-serif;
-	font-size: 22px;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
 	color:#757575;
+	line-height: 35px;
 }
 
 .section img{
@@ -83,6 +108,7 @@ hr{
 	font-size: 35px;
 	padding: 20px 0;
 	text-align:center;
+	font-family: 'Raleway', sans-serif;
 }
 
 .what-we-do-container p{
@@ -96,19 +122,24 @@ hr{
 .caption{
 	font-size: 18px;
     color: #757575;
-    font-family: 'Roboto';
+    font-family: 'Comfortaa', cursive;
 	margin-bottom:-10px;
 }
-
+.famous-freebies h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight:bold;
+}
 .famous-freebies p{
-	font-size:19px;
+	font-size:18px;
 	color:#BDBDBD;
-	margin: 10px;
-	padding:10px;
+	padding:5px;
+	line-height:25px;
 }
 
 .famous-freebies img:hover {
 	border: 2px solid black;
+	border-radius: 5px;
 }
 
 .btn-secondary{
@@ -123,7 +154,7 @@ hr{
 	border-radius: 18px;
 	background:#9E9E9E;
 	border:1px solid #9E9E9E;
-	font-family:helvetica;
+	font-family: 'Playfair Display SC', serif;
 }
 	
 #ab, #fa , #ko{
@@ -136,7 +167,7 @@ hr{
 	padding:20px;
 	cursor:pointer;
 	color:#263238;
-	font-family: 'Roboto';
+	font-family: 'Muli', sans-serif;
 	font-weight: bold;
 }
 
@@ -146,8 +177,9 @@ hr{
 	padding:0;
 }
 
-.team-section hr{
-	color:#9E9E9E;
+.team-section h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight:bold;
 }
 
 .team{
@@ -158,9 +190,9 @@ hr{
 .team p{
 	font-size: 18px;
 	color: #757575;
-}
+}	
 .social{
-	margin:20px;
+	margin:10px 20% 10px auto;
 	cursor: pointer;
 }
 
@@ -172,23 +204,27 @@ hr{
 	color: green;
 }
 
-.Numbers-sub-part1{
-	font-size:25px;
-	text-align: center;
-	padding: 20px;
-}
-.Numbers-sub-part2{
-	font-size:20px;
-	text-align: center;
-	padding: 5px;
-}
-.Numbers-sub-part3{
-	font-size:35px;
-	color: grey;
-	text-align: center;
-	padding: 5px;
+.subhead{
+	font-size: 30px;
+    color: #455A64;
+	font-family: 'Muli', sans-serif;
+	margin:50px auto 20px auto;
 }
 
+.subhead2{
+	    font-size: 18px;
+    margin: 30px auto;
+    text-align: center;
+	color:#607D8B;
+	font-family: 'Comfortaa', cursive;
+}
+
+.subhead3{
+	font-size: 45px;
+    color: #A1887F;
+	font-family: 'Playfair Display SC', serif;
+	margin-bottom:50px;
+}
 
 .box{	
 		position: absolute;
@@ -204,6 +240,7 @@ hr{
 		font-size: 25px;
 		text-align: center;
 		padding: 10px;
+		font-family: 'Ubuntu', sans-serif;
 }
 
 .box button{
@@ -213,6 +250,7 @@ hr{
     width: 200px;
     height: 40px;
     border-radius: 5px;
+	font-family: 'Playfair Display SC', serif;
 }
 
 .share button{
@@ -231,6 +269,7 @@ hr{
 	font-size: 25px;
 	color:#263238;
 	margin:20px;
+	font-family: 'Philosopher', sans-serif;
 }
 
 .address{
@@ -238,23 +277,58 @@ hr{
 		text-align: center;
 		padding: 20px;
 		color: #9E9E9E;
+		font-family: 'Philosopher', sans-serif;
 }
 #map {	
 		position: relative;
 		height: 530px;
 		width: 100%;
 }
-
 .footer{
-	background-color:#263238;
-	color:white;
-	height:60px;
-	
+	line-height:20px;
+	vertical-align:middle;
 }
+
+.footer-color-black{
+	background-color: rgba(30, 30, 30, 0.97);
+    color: #DDDDDD;
+	width: 100%;
+}
+
 .footer li{
-	display:inline;
-	padding: 20px;
-	text-align:center;
-	font-size: 20px;
+	display: inline;
+	padding:10px;
+}
+.footer a{
+	text-decoration:none;
+	float:left;
+	padding: 10px;
+	color:#DDDDDD;
+}
+
+.social-area{
+	padding: 10px;
+	float:right;
 	cursor:pointer;
+}
+
+.fa{
+    font-size: 20px;
+    position: relative;
+    top: -2px;
+    width: 24px;
+}
+
+
+@media (max-width: @screen-xs-max){
+	.intro{
+		width:100%;
+	}
+	.title{
+		text-align:center;
+		font-size: 10px;
+	}
+	.famous-freebies img{
+		width: 100px;
+	}
 }
